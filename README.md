@@ -85,3 +85,4 @@ const actions = {
 
 export default actions
 ```
+For compare codestyle and logical understandability of code, You are can compare this with examle of todomvc from here: https://github.com/reactjs/redux/tree/master/examples/todomvc
