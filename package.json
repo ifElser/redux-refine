@@ -16,7 +16,7 @@
     "codestyle"
   ],
   "author": "js-coder@mail.ru",
-  "license": "MIT",
+  "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/ifElser/redux-refine/issues"
   },
