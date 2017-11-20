@@ -2,7 +2,7 @@
 Small redux code refining library, which makes the code very enjoyable to work and makes life easier when developing reducers and actions
 
 ## Usage
-in reducer:
+in reducers:
 ```javascript
 // file 'reducers/todo.js'
 
@@ -54,7 +54,7 @@ export const actionTypes = getActionTypes(reducers);
 // Export reducer for combineReducers 
 export default connectReducers(initialState, reducers);
 ```
-in action:
+in actions:
 ```javascript
 // file 'actions/todo.js'
 
