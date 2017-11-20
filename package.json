@@ -1,0 +1,24 @@
+{
+  "name": "redux-refine",
+  "version": "1.0.0",
+  "description": "redux codestyle helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifElser/redux-refine.git"
+  },
+  "keywords": [
+    "redux",
+    "refine",
+    "codestyle"
+  ],
+  "author": "js-coder@mail.ru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifElser/redux-refine/issues"
+  },
+  "homepage": "https://github.com/ifElser/redux-refine#readme"
+}
