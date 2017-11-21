@@ -1,6 +1,27 @@
 # redux-refine
 Small redux code refining library, which makes the code very enjoyable to work and makes life easier when developing reducers and actions
 
+## Install
+```bash
+npm i -S redux-refine
+```
+
+## API
+### **method** `getActionTypes()`
+return keys of microreducers hash for export for using in actions modules instead constants  
+
+**arguments:**
+ - *`reducers`*: actions types indexed hash whith state microreducers pure functions for each action
+
+
+### **method** `connectReducers()`
+return complex reducer function, which aggregate reducers from hash and used in Redux combineReducers method
+
+**arguments**
+ - *`initialState`*: Initial state of Store sections, controlled by this reducer
+ - *`reducers`*: actions types indexed hash whith state microreducers pure functions for each action
+ - *`dataPropName`* (*optional, default value === 'data'*): name of the payload property of dispatched action
+
 ## Usage
 in reducers:
 ```javascript
