@@ -20,7 +20,7 @@ return complex reducer function, which aggregate reducers from hash and used in 
 **arguments**
  - *`initialState`*: Initial state of Store sections, controlled by this reducer
  - *`reducers`*: actions types indexed hash whith state microreducers pure functions for each action
- - *`dataPropName`* (*optional, default value === 'data'*): name of the payload property of dispatched action
+ - *`dataPropName`* (*optional, default value === 'data'*): name of the payload property of dispatched action (pass `false` or `null` if you want to use plain action object)
 
 ## Usage
 in reducers:
